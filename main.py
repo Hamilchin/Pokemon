@@ -280,7 +280,6 @@ def main():
     for pokemon in player_team.pokemon:
       if pokemon.name not in all_pokemon:
         all_pokemon.append(pokemon.name)
-    print(all_pokemon)
     if len(all_pokemon) >= 14:#checks if all possible pokemon have been caught
       print("\n   ~~~~====### You caught em' all! Nice job. You win the game! ###====~~~~")
       break
